@@ -3,7 +3,7 @@ extends Sprite2D
 @export var prepass_viewport_path := NodePath()
 @export var glow_color := Color.WHITE
 
-var prepass_shader: Shader = preload("../shaders/glow_prepass.gdshader")
+var prepass_shader: Shader = preload("res://Shaders/glow_prepass.gdshader")
 
 @onready var prepass_viewport: SubViewport = get_node(prepass_viewport_path)
 @onready var remote_transform := $RemoteTransform2D

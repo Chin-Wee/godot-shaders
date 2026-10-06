@@ -1,7 +1,9 @@
 shader_type canvas_item;
 
-uniform float scale_y = 1.0f;
-uniform float zoom_y = 1.0f;
+uniform sampler2D SCREEN_TEXTURE : hint_screen_texture, filter_linear_mipmap;
+
+uniform float scale_y = 1.0;
+uniform float zoom_y = 1.0;
 
 void fragment() {
 	float px_size_ratio = SCREEN_PIXEL_SIZE.y / TEXTURE_PIXEL_SIZE.y;

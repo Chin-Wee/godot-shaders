@@ -1,0 +1,698 @@
+{
+  "godot/Main/nodes_metadata.json": {
+    "mtime": 1791195963.3022792,
+    "seen": 1791196192.546153,
+    "ast_hash": "24851a6b72b78679bf972d1cd6f2d544",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1791195963.2051797,
+    "seen": 1791196192.546159,
+    "ast_hash": "abd72fbe24643e5cb62daaddc141c5f9",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Blur/asteroid-round.svg": {
+    "mtime": 1791195963.2064805,
+    "seen": 1791196192.546161,
+    "ast_hash": "087146bbdfa6e7312c98b07b3f894225",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Blur/topdown-player.svg": {
+    "mtime": 1791195963.2066565,
+    "seen": 1791196192.546162,
+    "ast_hash": "30aeca3263555d63f8f51efc3c9cd079",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Clouds2D/topdown-adventure.svg": {
+    "mtime": 1791195963.2076676,
+    "seen": 1791196192.5461628,
+    "ast_hash": "baa3ade48710731e557fbf0693f2ad13",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Crystals/Crystal_Albedo.png": {
+    "mtime": 1791195963.2102504,
+    "seen": 1791196192.546164,
+    "ast_hash": "d66be07b67ea3e223c3627024123635d",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Crystals/Crystal_Emission.png": {
+    "mtime": 1791195963.2117558,
+    "seen": 1791196192.546165,
+    "ast_hash": "6d5864f61fb8df494468202e7a32d390",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Crystals/Crystal_Normal.png": {
+    "mtime": 1791195963.2127833,
+    "seen": 1791196192.546166,
+    "ast_hash": "83dd1ce0b3055ef809deed252dc6856d",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Dissolve/Dissolve2D/black.png": {
+    "mtime": 1791195963.2138462,
+    "seen": 1791196192.546166,
+    "ast_hash": "8923730b6bd3ff16abb6677f341df4a9",
+    "semantic_hash": ""
+  },
+  "godot/Demos/ForceField/hexagon_grid.png": {
+    "mtime": 1791195963.2160547,
+    "seen": 1791196192.5461671,
+    "ast_hash": "d12f144c9a71d00d52499ced0917cd56",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Glow2D/glowy_arrow.png": {
+    "mtime": 1791195963.2169077,
+    "seen": 1791196192.546168,
+    "ast_hash": "837631b8568dca076f9740d1ae540431",
+    "semantic_hash": ""
+  },
+  "godot/Demos/ImpossibleCube/cube_stencil.png": {
+    "mtime": 1791195963.2181964,
+    "seen": 1791196192.546169,
+    "ast_hash": "3a28c6616732fd36c169b4704ea1b0e5",
+    "semantic_hash": ""
+  },
+  "godot/Demos/InteractiveSnow/Textures/BlendTexture.jpg": {
+    "mtime": 1791195963.2216303,
+    "seen": 1791196192.54617,
+    "ast_hash": "9b5a2023b3a543d427f84b8e10236037",
+    "semantic_hash": ""
+  },
+  "godot/Demos/InteractiveSnow/Textures/Ground039_1K_Color.jpg": {
+    "mtime": 1791195963.2219796,
+    "seen": 1791196192.54617,
+    "ast_hash": "4900e305e5f738fde15eea7eb46b20df",
+    "semantic_hash": ""
+  },
+  "godot/Demos/InteractiveSnow/Textures/Ground039_1K_Normal.jpg": {
+    "mtime": 1791195963.2225215,
+    "seen": 1791196192.546171,
+    "ast_hash": "d0e44b483b4e6d3665778b45e152522c",
+    "semantic_hash": ""
+  },
+  "godot/Demos/InteractiveSnow/Textures/Ground039_1K_Roughness.jpg": {
+    "mtime": 1791195963.222865,
+    "seen": 1791196192.546172,
+    "ast_hash": "e054ac832e959e08f6f57274e43ae0cf",
+    "semantic_hash": ""
+  },
+  "godot/Demos/InteractiveSnow/Textures/Snow004_1K_Color.jpg": {
+    "mtime": 1791195963.223169,
+    "seen": 1791196192.5461729,
+    "ast_hash": "16ed9f9314b682c0980e4b66269ee043",
+    "semantic_hash": ""
+  },
+  "godot/Demos/InteractiveSnow/Textures/Snow004_1K_Normal.jpg": {
+    "mtime": 1791195963.223559,
+    "seen": 1791196192.546174,
+    "ast_hash": "980b9b81d76155bed1d56e0424b1cb19",
+    "semantic_hash": ""
+  },
+  "godot/Demos/InteractiveSnow/Textures/Snow004_1K_Roughness.jpg": {
+    "mtime": 1791195963.2242365,
+    "seen": 1791196192.546175,
+    "ast_hash": "b3e01e03a7dbe1486b39581a8f634ab0",
+    "semantic_hash": ""
+  },
+  "godot/Demos/InteractiveSnow/Textures/testmask.png": {
+    "mtime": 1791195963.224701,
+    "seen": 1791196192.546175,
+    "ast_hash": "23e1a74060d6bc43abc6ae4d57be7a43",
+    "semantic_hash": ""
+  },
+  "godot/Demos/InteractiveSnow/TrailTexture.png": {
+    "mtime": 1791195963.2249606,
+    "seen": 1791196192.546176,
+    "ast_hash": "a33d46601762846e2d8d5fdda097bdb2",
+    "semantic_hash": ""
+  },
+  "godot/Demos/InteractiveSnow/TrailTip.png": {
+    "mtime": 1791195963.225246,
+    "seen": 1791196192.546177,
+    "ast_hash": "a8e25029fb3b62aeca5a60c5614341fc",
+    "semantic_hash": ""
+  },
+  "godot/Demos/MatCap/Chrome_matcap.png": {
+    "mtime": 1791195963.2262037,
+    "seen": 1791196192.546178,
+    "ast_hash": "d1453d1aa28a5601c13650ffacb1a882",
+    "semantic_hash": ""
+  },
+  "godot/Demos/MatCap/black_glass_matcap.jpeg": {
+    "mtime": 1791195963.2266564,
+    "seen": 1791196192.546179,
+    "ast_hash": "130622b080e06cadf1b93582b2354590",
+    "semantic_hash": ""
+  },
+  "godot/Demos/MatCap/copper_matcap.png": {
+    "mtime": 1791195963.2268476,
+    "seen": 1791196192.546179,
+    "ast_hash": "66a177c16bf5d7e306d6c25546430fa3",
+    "semantic_hash": ""
+  },
+  "godot/Demos/MatCap/flat_sketch_matcap.png": {
+    "mtime": 1791195963.2270796,
+    "seen": 1791196192.54618,
+    "ast_hash": "95e44b8a59c8aeffaf3ebfcff8f0af91",
+    "semantic_hash": ""
+  },
+  "godot/Demos/MatCap/glowy_matcap.jpeg": {
+    "mtime": 1791195963.2276533,
+    "seen": 1791196192.5461812,
+    "ast_hash": "e503d1d3fbefcc54145f6e4971e3a579",
+    "semantic_hash": ""
+  },
+  "godot/Demos/MatCap/plastic_matcap.jpg": {
+    "mtime": 1791195963.2280376,
+    "seen": 1791196192.5461812,
+    "ast_hash": "fe83a25a2794fca76ee595c567ae24c5",
+    "semantic_hash": ""
+  },
+  "godot/Demos/MatCap/red_matcap.png": {
+    "mtime": 1791195963.2283335,
+    "seen": 1791196192.546182,
+    "ast_hash": "97fc730b98e54c22c195f524973fb9db",
+    "semantic_hash": ""
+  },
+  "godot/Demos/MatCap/redjade_matcap.png": {
+    "mtime": 1791195963.2285805,
+    "seen": 1791196192.5461829,
+    "ast_hash": "d873b906a511ba3b2fa1e82d86071341",
+    "semantic_hash": ""
+  },
+  "godot/Demos/MatCap/skin_matcap.png": {
+    "mtime": 1791195963.2288513,
+    "seen": 1791196192.5461829,
+    "ast_hash": "fe2cd2ae502db39fb2f3e9f4748a8e5a",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Outline/Outline2D/mouse_cursor.png": {
+    "mtime": 1791195963.2303622,
+    "seen": 1791196192.5461838,
+    "ast_hash": "8195063041f45cbe1633fef10e80864d",
+    "semantic_hash": ""
+  },
+  "godot/Demos/PaletteSwap2D/KingsAndPigs_color_sets.png": {
+    "mtime": 1791195963.231774,
+    "seen": 1791196192.546185,
+    "ast_hash": "a81df0df86ccd66d5226093110c5e72c",
+    "semantic_hash": ""
+  },
+  "godot/Demos/PaletteSwap2D/KingsAndPigs_greyscale_sprite.png": {
+    "mtime": 1791195963.2320416,
+    "seen": 1791196192.546186,
+    "ast_hash": "b89f8f52ec71815a132811b121935217",
+    "semantic_hash": ""
+  },
+  "godot/Demos/SphereMask/LanternAlbedo.png": {
+    "mtime": 1791195963.2410347,
+    "seen": 1791196192.546187,
+    "ast_hash": "6052ee6ef0d61a46d7e089ef5d263819",
+    "semantic_hash": ""
+  },
+  "godot/Demos/SphereMask/PaperTransmission.jpg": {
+    "mtime": 1791195963.2419975,
+    "seen": 1791196192.546187,
+    "ast_hash": "8177f60c9e7eadd8fc3ea1dcf7245b79",
+    "semantic_hash": ""
+  },
+  "godot/Demos/SphereMask/PolesTexture.jpeg": {
+    "mtime": 1791195963.2426932,
+    "seen": 1791196192.546188,
+    "ast_hash": "ad7c797a84f68bdeb039fb49cb535e3e",
+    "semantic_hash": ""
+  },
+  "godot/Demos/StylizedFire/FireMask.png": {
+    "mtime": 1791195963.248935,
+    "seen": 1791196192.546189,
+    "ast_hash": "d375e0fdb7f8258711b340e3c9bc9255",
+    "semantic_hash": ""
+  },
+  "godot/Demos/StylizedFire/HoleNoise.png": {
+    "mtime": 1791195963.249533,
+    "seen": 1791196192.546189,
+    "ast_hash": "c8cfb1fb747d704232ec3066e4d9aa2c",
+    "semantic_hash": ""
+  },
+  "godot/Demos/StylizedFire/WispyNoise.png": {
+    "mtime": 1791195963.250109,
+    "seen": 1791196192.54619,
+    "ast_hash": "de5cd702e4fe815920692cda8bc09552",
+    "semantic_hash": ""
+  },
+  "godot/Demos/StylizedWaterfall/color-uv.png": {
+    "mtime": 1791195963.2618623,
+    "seen": 1791196192.5461912,
+    "ast_hash": "0aa252747d0033a3a04888810393ad9c",
+    "semantic_hash": ""
+  },
+  "godot/Demos/StylizedWaterfall/rock-color.jpg": {
+    "mtime": 1791195963.262254,
+    "seen": 1791196192.5461912,
+    "ast_hash": "f4e5f0d0943d750b3ddd6148206fdaed",
+    "semantic_hash": ""
+  },
+  "godot/Demos/TextureMix/textures/Moss003_1K_Color.jpg": {
+    "mtime": 1791195963.2645838,
+    "seen": 1791196192.546192,
+    "ast_hash": "4e74bf09ef09dad95cb83b43f99f8e7d",
+    "semantic_hash": ""
+  },
+  "godot/Demos/TextureMix/textures/Moss003_1K_Normal.jpg": {
+    "mtime": 1791195963.2658134,
+    "seen": 1791196192.546193,
+    "ast_hash": "aff30782f2e13e595a6ed3eba76646ed",
+    "semantic_hash": ""
+  },
+  "godot/Demos/TextureMix/textures/lambert2_ao.jpg": {
+    "mtime": 1791195963.267275,
+    "seen": 1791196192.5461938,
+    "ast_hash": "459c2d8a35868999349693985971f37d",
+    "semantic_hash": ""
+  },
+  "godot/Demos/TextureMix/textures/lambert2_baseColor.jpeg": {
+    "mtime": 1791195963.2683935,
+    "seen": 1791196192.546195,
+    "ast_hash": "acf0313f5e05c9ea3171ee866590fe73",
+    "semantic_hash": ""
+  },
+  "godot/Demos/TextureMix/textures/lambert2_normal.jpg": {
+    "mtime": 1791195963.270097,
+    "seen": 1791196192.546195,
+    "ast_hash": "19d3af2987bff5dd8c3fc5087d933967",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Water2D/disk_mask.png": {
+    "mtime": 1791195963.2710056,
+    "seen": 1791196192.546196,
+    "ast_hash": "09e8ddff81350baa28baa6f1a48d7a01",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Water2D/water_diffuse.png": {
+    "mtime": 1791195963.271265,
+    "seen": 1791196192.546197,
+    "ast_hash": "d7db81488063140c0ef9db9d4efeeb62",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Water2D/water_normal.png": {
+    "mtime": 1791195963.2715917,
+    "seen": 1791196192.5461981,
+    "ast_hash": "d2c9dbd5b3d1a637a716cb3ef13aa567",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Water2D/water_uv_offset.png": {
+    "mtime": 1791195963.2719748,
+    "seen": 1791196192.5461981,
+    "ast_hash": "90b43e2113aecd212e6e7f3a0422a125",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Water3D/diffuse.png": {
+    "mtime": 1791195963.272712,
+    "seen": 1791196192.546199,
+    "ast_hash": "9f64b285035637d282bc3fbc342e1051",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Water3D/normal.png": {
+    "mtime": 1791195963.2733135,
+    "seen": 1791196192.5462,
+    "ast_hash": "ca400d1fa3d32bc763b0b50560852e3e",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Water3D/specular.png": {
+    "mtime": 1791195963.27427,
+    "seen": 1791196192.5462,
+    "ast_hash": "94e0fd81c21da637f3939269360490ed",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/3d_noise.png": {
+    "mtime": 1791195963.2799425,
+    "seen": 1791196192.546201,
+    "ast_hash": "229a8806dce427abaee7edcb874fd654",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/bark_albedo.png": {
+    "mtime": 1791195963.2807407,
+    "seen": 1791196192.5462022,
+    "ast_hash": "e77567952b81d5468eb304793b2e5b72",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/bark_normal.png": {
+    "mtime": 1791195963.2812793,
+    "seen": 1791196192.5462022,
+    "ast_hash": "fac8a47d0031a6be87aeb59b896add27",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/elm leaf.png": {
+    "mtime": 1791195963.2817216,
+    "seen": 1791196192.546203,
+    "ast_hash": "2832510054237704f1eddfd96dac063d",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/elm_leaf_albedo.png": {
+    "mtime": 1791195963.2819595,
+    "seen": 1791196192.5462039,
+    "ast_hash": "209349a3461162566c90f9323a62ed05",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/elm_leaf_normal.png": {
+    "mtime": 1791195963.2821777,
+    "seen": 1791196192.546205,
+    "ast_hash": "bf4abda6961d47d73f2b129b0f0144cb",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/elm_leaf_transmission.png": {
+    "mtime": 1791195963.2824073,
+    "seen": 1791196192.546205,
+    "ast_hash": "e2dfb138531a8ca9f8750aa3df807a46",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/grass_albedo.png": {
+    "mtime": 1791195963.2826936,
+    "seen": 1791196192.546206,
+    "ast_hash": "06eb6b646559525ae5a08569d08eb26a",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/grass_normal.png": {
+    "mtime": 1791195963.2830253,
+    "seen": 1791196192.546207,
+    "ast_hash": "4ba0024567f5d691d68f0aedf6a34204",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/ground_ORM.png": {
+    "mtime": 1791195963.2835197,
+    "seen": 1791196192.546207,
+    "ast_hash": "7d686502c61bb18435368d2a3fccea2e",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/ground_albedo.png": {
+    "mtime": 1791195963.2843227,
+    "seen": 1791196192.546208,
+    "ast_hash": "3019bf6eab8d1f7f40a2e2e22d68235a",
+    "semantic_hash": ""
+  },
+  "godot/Demos/WindTrees/Textures/ground_normal.png": {
+    "mtime": 1791195963.2849698,
+    "seen": 1791196192.546209,
+    "ast_hash": "917523173fef3c71429bcffa9648fe82",
+    "semantic_hash": ""
+  },
+  "godot/Demos/Xray2d/gear.png": {
+    "mtime": 1791195963.2901585,
+    "seen": 1791196192.546209,
+    "ast_hash": "624bbc9eb1beda7ee38b7ef428d14014",
+    "semantic_hash": ""
+  },
+  "godot/Intro/textured_square.png": {
+    "mtime": 1791195963.2926457,
+    "seen": 1791196192.54621,
+    "ast_hash": "588cb3fc203c03fc570ba7a81bba5e66",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/9patch_mainmenu.png": {
+    "mtime": 1791195963.2942944,
+    "seen": 1791196192.546211,
+    "ast_hash": "8ce6f2836a3c53a22aeb928c2ead40a5",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/9patch_searchbar.png": {
+    "mtime": 1791195963.2944613,
+    "seen": 1791196192.546211,
+    "ast_hash": "a6845a24aa880069d704f300994c43fd",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/arrowLeft.png": {
+    "mtime": 1791195963.2947824,
+    "seen": 1791196192.5462122,
+    "ast_hash": "537823c8707fa219b348783c1f6019ce",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/arrowLeftPressed.png": {
+    "mtime": 1791195963.2949338,
+    "seen": 1791196192.5462132,
+    "ast_hash": "e193a3a8ddda3b0666f2b3c18cb7d797",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/arrowRight.png": {
+    "mtime": 1791195963.295088,
+    "seen": 1791196192.5462132,
+    "ast_hash": "3d4b02c538858d3b689487f79793b661",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/arrowRightPressed.png": {
+    "mtime": 1791195963.2952244,
+    "seen": 1791196192.5462139,
+    "ast_hash": "74a863c7258d3cb6e5802fe61b3f1487",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/button.png": {
+    "mtime": 1791195963.2953684,
+    "seen": 1791196192.5462148,
+    "ast_hash": "0c3caba5def17f0568b109e05a50258a",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/buttonLong.png": {
+    "mtime": 1791195963.2955148,
+    "seen": 1791196192.5462148,
+    "ast_hash": "a71075fb2822f5db2aaa0e31a30f0aa3",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/buttonLongPressed.png": {
+    "mtime": 1791195963.2956712,
+    "seen": 1791196192.546216,
+    "ast_hash": "b1bdd1539da75538d5ea6cb6232d09ab",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/buttonPressed.png": {
+    "mtime": 1791195963.2958348,
+    "seen": 1791196192.546217,
+    "ast_hash": "f63d85b7372723100c48654305975edd",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/close.png": {
+    "mtime": 1791195963.2959912,
+    "seen": 1791196192.546218,
+    "ast_hash": "1c66c6e95982f1e82d9c068d89a7383a",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/node-icons/Control.svg": {
+    "mtime": 1791195963.2991085,
+    "seen": 1791196192.546218,
+    "ast_hash": "544f97922dfb9fd8c56638c8787def21",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/node-icons/GuiVisibilityVisible.svg": {
+    "mtime": 1791195963.2992942,
+    "seen": 1791196192.546219,
+    "ast_hash": "fe02ee5fedc0ba46589cef127d37d4a0",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/node-icons/Node.svg": {
+    "mtime": 1791195963.2994776,
+    "seen": 1791196192.54622,
+    "ast_hash": "bc79285115649478634d586cf2fc9ae5",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/node-icons/Node2D.svg": {
+    "mtime": 1791195963.2996628,
+    "seen": 1791196192.54622,
+    "ast_hash": "d1630e9a0fd7e2e033e3d6419164fc27",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/node-icons/Node3D.svg": {
+    "mtime": 1791195963.2998486,
+    "seen": 1791196192.546221,
+    "ast_hash": "ff8ad0c0225599a980353b033a06777a",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/scrollbar.png": {
+    "mtime": 1791195963.300029,
+    "seen": 1791196192.546222,
+    "ast_hash": "04510ebff8f7103eee68aa4828b4c11e",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/scrollbar_grabber_active.png": {
+    "mtime": 1791195963.3002055,
+    "seen": 1791196192.546222,
+    "ast_hash": "3192facf400801f376233dc6e5165070",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/scrollbar_grabber_inactive.png": {
+    "mtime": 1791195963.3003778,
+    "seen": 1791196192.546224,
+    "ast_hash": "768a08961a35af43d27cffc20064667a",
+    "semantic_hash": ""
+  },
+  "godot/Main/UI/textFrame.png": {
+    "mtime": 1791195963.3005772,
+    "seen": 1791196192.5462248,
+    "ast_hash": "38a95b75d3a504c6e6841df8dac3a29b",
+    "semantic_hash": ""
+  },
+  "godot/Main/background.png": {
+    "mtime": 1791195963.3017023,
+    "seen": 1791196192.546226,
+    "ast_hash": "de0c5732af81177eea8ac7e21d6a8548",
+    "semantic_hash": ""
+  },
+  "godot/Main/gdquest_logo_white.svg": {
+    "mtime": 1791195963.3020298,
+    "seen": 1791196192.546226,
+    "ast_hash": "201f20ff584fc51442a5da659040af60",
+    "semantic_hash": ""
+  },
+  "godot/Main/planet.png": {
+    "mtime": 1791195963.3023572,
+    "seen": 1791196192.546227,
+    "ast_hash": "4c8afa5830c627c42eb77f83354ae611",
+    "semantic_hash": ""
+  },
+  "godot/Main/planet_large.png": {
+    "mtime": 1791195963.3026824,
+    "seen": 1791196192.546228,
+    "ast_hash": "c23310a567207ef95048420807d39f99",
+    "semantic_hash": ""
+  },
+  "godot/Main/title.svg": {
+    "mtime": 1791195963.30291,
+    "seen": 1791196192.546229,
+    "ast_hash": "954f8b073b65221dc27f37e6d04abb76",
+    "semantic_hash": ""
+  },
+  "godot/Shared/Background2D/gradient.svg": {
+    "mtime": 1791195963.30836,
+    "seen": 1791196192.546229,
+    "ast_hash": "ff35440a0a901dbadc8d4f143f0fa269",
+    "semantic_hash": ""
+  },
+  "godot/Shared/Background2D/graph.svg": {
+    "mtime": 1791195963.3085375,
+    "seen": 1791196192.54623,
+    "ast_hash": "8fc6ece8f578ef0ef1e2812b67232126",
+    "semantic_hash": ""
+  },
+  "godot/Shared/Background2D/sparkle.png": {
+    "mtime": 1791195963.3088288,
+    "seen": 1791196192.546231,
+    "ast_hash": "a63aae2e483b40ac9b499054696de8a8",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/3D-environment/ShockwaveScene_palette.png": {
+    "mtime": 1791195963.3115752,
+    "seen": 1791196192.546231,
+    "ast_hash": "bc617085eefbfef563d873979df2c749",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/rat_model/rat_albedo.png": {
+    "mtime": 1791195963.3140717,
+    "seen": 1791196192.546232,
+    "ast_hash": "2912b740fae1c877a312c5d3f6e91ef4",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/rat_model/rat_body_ao.png": {
+    "mtime": 1791195963.3142605,
+    "seen": 1791196192.5462332,
+    "ast_hash": "915a920f6830a7822cb250bc2f0fcd00",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/rat_model/rat_body_claws_mask.png": {
+    "mtime": 1791195963.3144205,
+    "seen": 1791196192.5462332,
+    "ast_hash": "709a971d1607c2190fc0cb0db870dabe",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/rat_model/rat_body_flesh_mask.png": {
+    "mtime": 1791195963.3145878,
+    "seen": 1791196192.5462341,
+    "ast_hash": "584d58717d47e07effb737063280c7a2",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/rat_model/rat_head_albedo.png": {
+    "mtime": 1791195963.3148758,
+    "seen": 1791196192.5462348,
+    "ast_hash": "2d9fd5dbe863d53ef2efa11471b8d501",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/rat_model/rat_head_ao.png": {
+    "mtime": 1791195963.3150976,
+    "seen": 1791196192.5462348,
+    "ast_hash": "3cc7629e668019ed65c1ada7fdbd62ab",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/rat_model/rat_head_eyes_mask.png": {
+    "mtime": 1791195963.3152905,
+    "seen": 1791196192.5462358,
+    "ast_hash": "794149188d7d3d7966e40777b1c2ce89",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/rat_model/rat_head_flesh_mask.png": {
+    "mtime": 1791195963.3154812,
+    "seen": 1791196192.546237,
+    "ast_hash": "01fcb00df724311b9fff47db3ad71263",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/rat_model/rat_head_teeth_mask.png": {
+    "mtime": 1791195963.3156538,
+    "seen": 1791196192.546237,
+    "ast_hash": "b6f37d656aca2f872d341572532261da",
+    "semantic_hash": ""
+  },
+  "godot/Shared/models/rat_model/rat_shadow_paint.png": {
+    "mtime": 1791195963.3158112,
+    "seen": 1791196192.546238,
+    "ast_hash": "ecddc9e5d4d8ca89e99fc45499849e06",
+    "semantic_hash": ""
+  },
+  "godot/Shared/sprites/cloud1.png": {
+    "mtime": 1791195963.3161376,
+    "seen": 1791196192.546238,
+    "ast_hash": "3672852e00c390b4d2422938e040ee92",
+    "semantic_hash": ""
+  },
+  "godot/Shared/sprites/robi_shaded.png": {
+    "mtime": 1791195963.31654,
+    "seen": 1791196192.546239,
+    "ast_hash": "e315ffce1087213c94ff336aee422cdc",
+    "semantic_hash": ""
+  },
+  "godot/Shared/theme/icons/chevron-right.svg": {
+    "mtime": 1791195963.3217437,
+    "seen": 1791196192.54624,
+    "ast_hash": "9c59704b1de34c9fbb54c100b907ac85",
+    "semantic_hash": ""
+  },
+  "godot/Shared/theme/icons/chevron-up.svg": {
+    "mtime": 1791195963.3218875,
+    "seen": 1791196192.54624,
+    "ast_hash": "90f47098c8908802053427f30191c643",
+    "semantic_hash": ""
+  },
+  "godot/Shared/theme/icons/trash_icon.svg": {
+    "mtime": 1791195963.322038,
+    "seen": 1791196192.546241,
+    "ast_hash": "3995d11cf93fdbaba5cdd3ca04841637",
+    "semantic_hash": ""
+  },
+  "godot/icon.png": {
+    "mtime": 1791195963.324049,
+    "seen": 1791196192.546241,
+    "ast_hash": "e4a9790382dfc31779a5ee63e125813e",
+    "semantic_hash": ""
+  },
+  "img/robi-in-flames.png": {
+    "mtime": 1791195963.3250835,
+    "seen": 1791196192.546242,
+    "ast_hash": "118d0b9de44d4bdac28c6ba976c74eab",
+    "semantic_hash": ""
+  },
+  "img/stylized-fire.png": {
+    "mtime": 1791195963.3253055,
+    "seen": 1791196192.5462432,
+    "ast_hash": "571379d75999c9e432a8680fbc95d055",
+    "semantic_hash": ""
+  },
+  "img/water2d.png": {
+    "mtime": 1791195963.3255079,
+    "seen": 1791196192.5462432,
+    "ast_hash": "30169e1029d267be5b5b3a41d0cb3e38",
+    "semantic_hash": ""
+  }
+}

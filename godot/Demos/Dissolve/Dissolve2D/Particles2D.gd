@@ -4,10 +4,10 @@ extends GPUParticles2D
 @export var emission_mask: Texture2D
 
 func _physics_process(_delta: float) -> void:
-	var data := emission_mask.get_data().data
-	var width: int = data.width
-	var height: int = data.height
-	var raw: PackedByteArray = data.data
+	var mask_image := emission_mask.get_image()
+	var width := mask_image.get_width()
+	var height := mask_image.get_height()
+	var raw := mask_image.get_data()
 
 	var positions := PackedVector2Array()
 
@@ -28,16 +28,13 @@ func _physics_process(_delta: float) -> void:
 			buffer.put_float(pos.y)
 
 		var new_width := 2048
-		var new_height := (positions.size() / 2048) + 1
+		var new_height := ceili(float(positions.size()) / new_width)
 
 		var output := buffer.data_array
 		output.resize(new_width * new_height * 8)
 
-		var image := Image.new()
-		image.create_from_data(new_width, new_height, false, Image.FORMAT_RGF, output)
-
-		var image_texture := ImageTexture.new()
-		image_texture.create_from_image(image)
+		var points_image := Image.create_from_data(new_width, new_height, false, Image.FORMAT_RGF, output)
+		var image_texture := ImageTexture.create_from_image(points_image)
 
 		process_material.emission_shape = ParticleProcessMaterial.EMISSION_SHAPE_POINTS
 		process_material.emission_point_texture = image_texture

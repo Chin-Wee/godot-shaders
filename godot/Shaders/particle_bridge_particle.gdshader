@@ -14,10 +14,14 @@ uniform float animation_speed = 10.0;
 uniform int bridge_width_particles = 12;
 uniform float spacing = 0.3;
 
-void vertex() {
+void start() {
 	// Place the particles of the bridge in a grid
-	TRANSFORM[3].x = float(INDEX % bridge_width_particles) * spacing;
-	TRANSFORM[3].z = float(INDEX / bridge_width_particles) * spacing;
+	int particle_index = int(INDEX);
+	TRANSFORM[3].x = float(particle_index % bridge_width_particles) * spacing;
+	TRANSFORM[3].z = float(particle_index / bridge_width_particles) * spacing;
+}
+
+void process() {
 // END: grid
 // ANCHOR: distance
 	// Find the distance from the character, normalized between zero and one.

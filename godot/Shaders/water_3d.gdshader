@@ -20,6 +20,8 @@ uniform vec2 movement_direction = vec2(1,0);
 uniform sampler2D refraction_noise : hint_normal;
 uniform sampler2D foam_noise : hint_default_black;
 uniform sampler2D displacement_noise : hint_default_black;
+uniform sampler2D DEPTH_TEXTURE : hint_depth_texture, filter_linear_mipmap;
+uniform sampler2D SCREEN_TEXTURE : hint_screen_texture, filter_linear_mipmap;
 
 void vertex() {
 	float displacement = textureLod(

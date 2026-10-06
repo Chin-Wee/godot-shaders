@@ -13,10 +13,10 @@ noise = SubResource( 1 )
 
 [resource]
 shader = ExtResource( 1 )
-shader_param/mask_center = Vector3( -3.42114, 4.25289, -4.76837e-07 )
-shader_param/mask_radius = 0.0
-shader_param/mask_border_radius = 4.0
-shader_param/emission_energy = 4.317
-shader_param/object_color = Color( 0.443137, 0.286275, 0.0470588, 1 )
-shader_param/mask_color = Color( 1, 0.980392, 0.505882, 1 )
-shader_param/ghost_noise = SubResource( 2 )
+shader_parameter/mask_center = Vector3( -3.42114, 4.25289, -4.76837e-07 )
+shader_parameter/mask_radius = 0.0
+shader_parameter/mask_border_radius = 4.0
+shader_parameter/emission_energy = 4.317
+shader_parameter/object_color = Color( 0.443137, 0.286275, 0.0470588, 1 )
+shader_parameter/mask_color = Color( 1, 0.980392, 0.505882, 1 )
+shader_parameter/ghost_noise = SubResource( 2 )

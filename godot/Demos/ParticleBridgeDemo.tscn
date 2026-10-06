@@ -100,7 +100,7 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath(".:process_material:shader_param/radius")
+tracks/0/path = NodePath(".:process_material:shader_parameter/radius")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -116,7 +116,7 @@ length = 0.5
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath(".:process_material:shader_param/radius")
+tracks/0/path = NodePath(".:process_material:shader_parameter/radius")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -170,7 +170,7 @@ tracks/2/keys = {
 tracks/3/type = "bezier"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("BridgeParticles:process_material:shader_param/radius")
+tracks/3/path = NodePath("BridgeParticles:process_material:shader_parameter/radius")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
@@ -291,7 +291,7 @@ material_override = SubResource("14")
 mesh = SubResource("15")
 material/0 = null
 
-[node name="GroundParticles" type="Particles" parent="Environment"]
+[node name="GroundParticles" type="GPUParticles3D" parent="Environment"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.159886, -7.01857, 11.1831)
 material_override = SubResource("17")
 amount = 25
@@ -317,7 +317,7 @@ shape = SubResource("41")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 2, 28)
 shape = SubResource("41")
 
-[node name="BridgeParticles" type="Particles" parent="."]
+[node name="BridgeParticles" type="GPUParticles3D" parent="."]
 amount = 996
 lifetime = 2.0
 explosiveness = 1.0

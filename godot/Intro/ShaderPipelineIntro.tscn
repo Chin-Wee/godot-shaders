@@ -312,8 +312,6 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Tween" type="Tween" parent="Title"]
-
 [node name="Pixels" type="Node2D" parent="."]
 modulate = Color(1, 1, 1, 0)
 script = ExtResource("10")
@@ -327,13 +325,9 @@ Vertex = ExtResource("3")
 theme = ExtResource("4")
 v_code = ExtResource("6")
 
-[node name="Tween" type="Tween" parent="RawVertexData"]
-
 [node name="LineDrawers" type="Node2D" parent="."]
 script = ExtResource("7")
 LineDrawer = ExtResource("13")
-
-[node name="Tween" type="Tween" parent="LineDrawers"]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource("11")

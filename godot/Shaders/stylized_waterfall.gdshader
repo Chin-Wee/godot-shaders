@@ -31,6 +31,7 @@ uniform float max_depth = 1.0;
 // END: max_depth
 // ANCHOR: depth_color
 uniform sampler2D depth_color_curve;
+uniform sampler2D DEPTH_TEXTURE : hint_depth_texture, filter_linear_mipmap;
 // END: depth_color
 // ANCHOR: depth_foam_offset
 uniform float depth_foam_offset= 0.25;

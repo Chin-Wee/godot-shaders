@@ -76,10 +76,6 @@ render_target_update_mode = 4
 
 [node name="Demo3DEnvironment" parent="DemoView/SubViewport" instance=ExtResource("6")]
 
-[node name="Tween" type="Tween" parent="DemoView"]
-_import_path = NodePath("")
-unique_name_in_owner = false
-process_mode = 0
 process_priority = 0
 process_physics_priority = 0
 process_thread_group = 0

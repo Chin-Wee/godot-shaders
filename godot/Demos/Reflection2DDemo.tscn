@@ -13,8 +13,9 @@ uniform float reflection_intensity = 0.5;
 uniform sampler2D transition_gradient :hint_default_black;
 
 // Updated from GDScript
-uniform float scale_y = 1.0f;
-uniform float zoom_y = 1.0f;
+uniform float scale_y = 1.0;
+uniform float zoom_y = 1.0;
+uniform sampler2D SCREEN_TEXTURE : hint_screen_texture, filter_linear_mipmap;
 
 void fragment() {
 	float uv_size_ratio_v = SCREEN_PIXEL_SIZE.y / TEXTURE_PIXEL_SIZE.y;

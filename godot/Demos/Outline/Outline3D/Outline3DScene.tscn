@@ -81,8 +81,6 @@ script = ExtResource("5")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CubeSmoothed/Area3D"]
 shape = SubResource("4")
 
-[node name="Tween" type="Tween" parent="CubeSmoothed"]
-
 [node name="Cube" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -2.5)
 mesh = SubResource("1")
@@ -93,8 +91,6 @@ script = ExtResource("5")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Cube/Area3D"]
 shape = SubResource("4")
-
-[node name="Tween" type="Tween" parent="Cube"]
 
 [node name="Sphere" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
@@ -107,8 +103,6 @@ script = ExtResource("5")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Sphere/Area3D"]
 shape = SubResource("10")
 
-[node name="Tween" type="Tween" parent="Sphere"]
-
 [node name="Cylinder" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 2.5)
 mesh = SubResource("11")
@@ -119,8 +113,6 @@ script = ExtResource("5")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Cylinder/Area3D"]
 shape = SubResource("14")
-
-[node name="Tween" type="Tween" parent="Cylinder"]
 
 [node name="CylinderSmoothed" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 5.5)
@@ -134,8 +126,6 @@ script = ExtResource("5")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CylinderSmoothed/Area3D"]
 shape = SubResource("14")
-
-[node name="Tween" type="Tween" parent="CylinderSmoothed"]
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(0.0148172, 0.332849, -0.942864, 0, 0.942967, 0.332886, 0.99989, -0.00493243, 0.0139721, -8.692, 3.743, 0)

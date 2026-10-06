@@ -1,0 +1,171 @@
+{
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nodes": [
+    {
+      "id": "readme",
+      "label": "README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_godot_shaders",
+      "label": "Godot Shaders",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_the_shaders",
+      "label": "The shaders",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_3d_shaders",
+      "label": "3D Shaders",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_2d_shaders",
+      "label": "2D Shaders",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_screen_shaders",
+      "label": "Screen shaders",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_how_to_use",
+      "label": "How to use",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_contributing",
+      "label": "Contributing",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_credits",
+      "label": "Credits",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "readme",
+      "target": "readme_godot_shaders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_godot_shaders",
+      "target": "readme_the_shaders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_the_shaders",
+      "target": "readme_3d_shaders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_the_shaders",
+      "target": "readme_2d_shaders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_the_shaders",
+      "target": "readme_screen_shaders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_godot_shaders",
+      "target": "readme_how_to_use",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_godot_shaders",
+      "target": "readme_contributing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_godot_shaders",
+      "target": "readme_credits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "directed": false
+}

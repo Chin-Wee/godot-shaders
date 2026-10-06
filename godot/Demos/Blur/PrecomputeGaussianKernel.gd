@@ -21,5 +21,5 @@ func _run() -> void:
 
 	output = output.rstrip(',') + "\n\t};"
 
-	OS.clipboard = output
+	DisplayServer.clipboard_set(output)
 	print("Precomputing gaussian weights: \n%s" % output)
